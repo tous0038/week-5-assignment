@@ -1,0 +1,89 @@
+/* This is my CSS file */
+
+body {
+    background-color: rgb(247, 217, 247);
+    color: #404040;
+    padding: 0; 
+    margin: 0;
+    font-family:"Roboto", Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 960px;
+    background: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-bottom: 3px solid pink;
+}
+
+header, footer {
+    background: rgb(247, 237, 224);
+    margin-bottom: 10px;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid pink;
+}
+
+.site-title {
+    font-family: "Newsreader", Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: rgb(82, 14, 82)
+}
+
+h2,h3 {
+    font-family: "Newsreader", Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-left: 3px dotted gray;
+    padding: 20px;
+}
+
+#my-image {
+    box-shadow: 0px 0px 1px 2px black;   
+}
+
+.list {
+    list-style-type: square;
+  }
+
+ul li:nth-child(odd) {
+    background: plum;
+  }
+
+nav ul li,
+nav ul li:nth-child(odd){
+        background: papayawhip;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+text-decoration: none;
+background: plum;
+color: purple;
+padding: 10px;
+border-radius: 10px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    background: rgb(163, 50, 163);
+    color: rgb(250, 236, 250);
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+    nav ul li a:hover {
+        background: rgb(90, 4, 90);
+        color: rgb(5, 3, 5);
+        }
